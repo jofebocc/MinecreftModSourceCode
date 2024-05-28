@@ -12,17 +12,16 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/turotial-mod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.boccalandro.tutorialmod.TurotialMod"
+			"net.boccalandro.tutorialmod.TutorialMod"
 		],
 		"client": [
 			"net.boccalandro.tutorialmod.TutorialModClient"
 		],
 		"fabric-datagen": [
-			"net.boccalandro.tutorialmod.TurotialModDataGenerator"
+			"net.boccalandro.tutorialmod.TutorialModDataGenerator"
 		]
 	},
 	"mixins": [
