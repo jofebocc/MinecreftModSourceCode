@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "turotial-mod",
+	"version": "${version}",
+	"name": "Turotial Mod",
+	"description": "EL mejor tutorial de tu vida mano",
+	"authors": [
+		"Boccalandro"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/turotial-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.boccalandro.tutorialmod.TurotialMod"
+		],
+		"client": [
+			"net.boccalandro.tutorialmod.TutorialModClient"
+		],
+		"fabric-datagen": [
+			"net.boccalandro.tutorialmod.TurotialModDataGenerator"
+		]
+	},
+	"mixins": [
+		"tutorialmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
