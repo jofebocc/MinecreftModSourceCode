@@ -1,5 +1,6 @@
 package net.boccalandro.tutorialmod;
 
+import net.boccalandro.tutorialmod.block.ModBlocks;
 import net.boccalandro.tutorialmod.item.ModItemGroups;
 import net.boccalandro.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -17,5 +18,6 @@ public class TutorialMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
+		ModBlocks.registerBlocks();
 	}
 }
