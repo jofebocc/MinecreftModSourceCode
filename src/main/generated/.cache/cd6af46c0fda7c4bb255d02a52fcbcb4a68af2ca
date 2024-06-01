@@ -1,0 +1,7 @@
+// 1.20.6	2024-05-31T14:35:47.1505434	Turotial Mod/Tags for minecraft:block
+4ac28976694fe3d48fa2f936db742870cb35746a data\minecraft\tags\blocks\mineable\pickaxe.json
+aecb4ddc0e2005202c5640cb534ae6a6cfa8a5b2 data\minecraft\tags\blocks\needs_stone_tool.json
+02398a7e3e2cd617bafb324c7604accfb1890d4c data\minecraft\tags\blocks\needs_iron_tool.json
+bee419f345f9718e7f96ad8812100cf743eb478a data\tutorialmod\tags\blocks\metal_detector_detectable_blocks.json
+204ad524fb83df7507b52680a6be73e1d14f645d data\minecraft\tags\blocks\needs_diamond_tool.json
+6c1256fa8cc573945533ae1df24d1eeabeba8862 data\fabric\tags\blocks\needs_tool_level_4.json
